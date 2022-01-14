@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5", /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "commonjs", /* Specify what module code is generated. */
+    "declaration": true, /* Skip type checking all .d.ts files. */
+    "outDir": "./dist",
+    "strict": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "esModuleInterop": true,
+    "types": [
+      "jest",
+      "node"
+    ]
+  },
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/__tests__/*"
+  ]
+}
